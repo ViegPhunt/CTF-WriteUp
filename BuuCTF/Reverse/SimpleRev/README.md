@@ -24,14 +24,14 @@
 
 - Đây là đoạn mã chúng ta cần phân tích
 
-<a href="./decode.py">
+<a href="./decode.py" target="_blank">
   <img src="./images/res.png" alt="Python decode script" style="cursor: pointer;">
 </a>
 
 - Tôi có viết lại đoạn giải bằng python như trên và nhận được flag
 
 <details>
-<summary style="cursor: pointer; font-size: 20px">FLAG</summary>
+<summary style="cursor: pointer">FLAG</summary>
 
 ```
 flag{KLDQCUDFZO}
