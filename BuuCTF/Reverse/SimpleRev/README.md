@@ -24,7 +24,7 @@
 
 - Đây là đoạn mã chúng ta cần phân tích
 
-<a href="./decode.py" target="_blank" rel="noopener noreferrer">
+<a href="./decode.py">
   <img src="./images/res.png" alt="Python decode script" style="cursor: pointer;">
 </a>
 
