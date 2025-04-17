@@ -22,7 +22,7 @@
   - 74 là J (sang trái)
 
 ![result](./images/result.png)
-- Sau khi tự giải ma trận và nhận được flag
+- Sau khi ma trận tôi đã có được flag
 
 <details>
 <summary style="cursor: pointer">FLAG</summary>
