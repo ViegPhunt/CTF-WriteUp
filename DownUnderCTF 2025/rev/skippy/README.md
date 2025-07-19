@@ -35,8 +35,6 @@
 ![scr8](./images/scr8.png)
 ![scr9](./images/scr9.png)
 - Tuyệt vời rồi, giờ thì cả `Stone` và `decryptor` đều đã khá sạch sẽ rồi
-
----
 - Tôi chạy lại thử chương trình 1 lần nữa để xem kết quả
 - File đã chạy và tôi đã lấy được flag của bài này
 
