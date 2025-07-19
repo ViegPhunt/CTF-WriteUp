@@ -1,4 +1,4 @@
-# Skippy
+# skippy
 
 - Tôi sử dụng IDA để tiến hành dịch mã của bài này
 - Ngay tại hàm `main`, chỉ có một hàm duy nhất mà chúng ta cần chú ý là hàm `sandwich`
