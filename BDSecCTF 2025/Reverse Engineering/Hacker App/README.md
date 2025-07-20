@@ -114,7 +114,7 @@ for i, module_id in enumerate(rX3gT9):
 </details>
 
 - Tôi có đoạn python để encypt giống như code gốc như trên
-- Và nó thật sự đã mã hóa chuỗi `root:toor123`
+- Và nó thật sự có được đoạn mã hóa của chuỗi `root:toor123` giống như trong app
 - Vậy nên tôi tiến hành reverse lại quy trình mã hóa của bài và có được đoạn python dưới đây
 
 <details>
