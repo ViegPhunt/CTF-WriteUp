@@ -220,7 +220,7 @@ decrypt_base64(encrypted_string)
 ```
 </details>
 
-- Sau khi chạy đoạn python này với cả Root Password mà bài có cho thì tôi đã có được flag
+- Sau khi chạy đoạn python này với cả `Root Account Password` mà bài có cho thì tôi đã có được flag
 
 <details>
 <summary style="cursor: pointer">Flag</summary>
