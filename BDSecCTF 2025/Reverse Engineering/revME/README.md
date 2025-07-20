@@ -1,7 +1,6 @@
 # revME
 
 - Tôi mở file bằng IDA để dịch mã của bài
-- ngắn v
 
 ![scr1](./images/scr1.png)
 - Tôi vào check dữ liệu và thấy như này, kết hợp với hàm start đang có một vòng for xor
