@@ -22,7 +22,6 @@ xors = [
     0x3D, 0x52, 0x5B
 ]
 
-
 for i in range(1, 1001):
     encrypted_flag = [x ^ xors[i % len(xors)] for x in encrypted_flag]
 
