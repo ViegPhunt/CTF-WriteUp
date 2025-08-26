@@ -5,7 +5,7 @@
 - Mình sử dụng IDA để đọc code của chương trình này.
 
 ![img1](./images/img1.png)
-- Đọc qua 2 hàm có trong main thì tôi xác định được hàm xử lý logic chính là `sub_140001000`.
+- Đọc qua 2 hàm có trong main thì mình xác định được hàm xử lý logic chính là `sub_140001000`.
 - Tiến hành phân tích nó.
 
 ![img2](./images/img2.png)
@@ -33,7 +33,7 @@
 
 ![img6](./images/img6.png)
 - Sau đó các dữ liệu trả về từ hàm CRC32 sẽ được so sánh lần lượt với mảng `v27`, nếu sai thì sẽ thoát chương trình.
-- Tôi có viết một đoạn script python để bruteforce các ký tự đi qua hàm CRC32 và rồi so sánh với dữ liệu có sẵn trong `v27`, nếu đúng ta sẽ biết đó là ký tự có trong flag.
+- Mình có viết một đoạn script python để bruteforce các ký tự đi qua hàm CRC32 và rồi so sánh với dữ liệu có sẵn trong `v27`, nếu đúng ta sẽ biết đó là ký tự có trong flag.
 
 ``` python
 import string
