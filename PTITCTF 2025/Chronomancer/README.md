@@ -13,7 +13,7 @@
 
 ![img3](./images/img3.png)
 - Sau khi phân tích và dọn lại code thì được như hình bên trên.
-- Ở đây hàm này sẽ ghép các string lại với nhau, cuối flag sẽ là một số được trả về từ hàm `sub_140001510`.
+- Ở đây hàm này sẽ ghép các string lại với nhau, cuối flag sẽ là một số (v15) được trả về từ hàm `sub_140001510`.
 - Từ đây ta sẽ có cách để giải được flag của bài này là tìm ra `v15` là gì.
   - Mình có viết lại 1 script python mô phỏng lại hàm `sub_140001510` để đấy v15 và ghép vào mảnh flag đã có trước đó.
   ``` python
