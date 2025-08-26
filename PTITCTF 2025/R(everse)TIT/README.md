@@ -16,8 +16,8 @@
 - Trước mắt thì ta sẽ thấy chương trình đang lấy ra 7 ký tự đầu tiên trong flag sẽ đó qua 1 hàm hash SHA-1 và rồi so sánh với chuỗi `edadb1236fb6dfc71c58c701fc92607a584add9f`.
 
 ![img3](./images/img3.png)
-- Vì ở phần ngay dưới tôi thấy chương trình check index 7 của flag với `{` nên tôi nghĩ 7 ký tự đầu tiên sẽ là `PTITCTF`.
-- Tôi tiến hành tạo 1 hàm SHA-1 bằng python và check xem hash của PTITCTF có đúng là `edadb1236fb6dfc71c58c701fc92607a584add9f` không.
+- Vì ở phần ngay dưới mình thấy chương trình check index 7 của flag với `{` nên mình nghĩ 7 ký tự đầu tiên sẽ là `PTITCTF`.
+- Mình tiến hành tạo 1 hàm SHA-1 bằng python và check xem hash của PTITCTF có đúng là `edadb1236fb6dfc71c58c701fc92607a584add9f` không.
 
 ``` python
 import hashlib
@@ -34,7 +34,7 @@ print(sha1(text) == "edadb1236fb6dfc71c58c701fc92607a584add9f")
 ![img4](./images/img4.png)
 - Ta thấy chương trình đang lấy từ từ từng 3 ký tự một trong flag ra để so sánh với các string SHA-1 có sẵn của chương trình.
 - Ta sẽ giải từ từ từng 3 ký tự một của bài này, vì ở đây chỉ đang lấy 3 ký tự và hash nên ta có thể bruteforce nó một cách khá nhanh.
-- Tôi sẽ viết 1 đoạn script python để bruteforce từng 3 ký tự một cho flag của bài này (ở script này tôi đã tổng hợp lại hết các mã hash và giải ra flag luôn).
+- Mình sẽ viết 1 đoạn script python để bruteforce từng 3 ký tự một cho flag của bài này (ở script này mình đã tổng hợp lại hết các mã hash và giải ra flag luôn).
 
 ``` python
 import hashlib
