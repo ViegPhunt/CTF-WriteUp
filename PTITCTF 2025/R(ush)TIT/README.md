@@ -33,7 +33,7 @@
 
 ![img6](./images/img6.png)
 - Sau đó các dữ liệu trả về từ hàm CRC32 sẽ được so sánh lần lượt với mảng `v27`, nếu sai thì sẽ thoát chương trình.
-- Tôi có việc một đoạn script python để bruteforce các ký tự đi qua hàm CRC32 và rồi so sánh với dữ liệu có sẵn trong `v27`, nếu đúng ta sẽ biết đó là ký tự có trong flag.
+- Tôi có viết một đoạn script python để bruteforce các ký tự đi qua hàm CRC32 và rồi so sánh với dữ liệu có sẵn trong `v27`, nếu đúng ta sẽ biết đó là ký tự có trong flag.
 
 ``` python
 import string
