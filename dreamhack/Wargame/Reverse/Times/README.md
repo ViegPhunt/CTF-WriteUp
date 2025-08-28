@@ -118,7 +118,7 @@ for m in range(len(data) // 4):
 print(data)
 ```
 - Đây là đoạn code python của tôi, nhưng ở đây tôi vẫn chưa giải được key cho bài này, tôi không hiểu sao vì gần như nếu so với logic của hàm `main` thì đến đây chúng ta đã có được key rồi.
-- Tôi nghi ngờ là đã bỏ qua gì đó, tôi kiểm tra lại đề bài thì thấy được đề gợi ý ra một trang web tìm hiểu về `ptrace` và cùng khi đó tôi để ý thấy một hàm ptrace ở gần đoạn check Times ban đầu.
+- Tôi nghi ngờ là đã bỏ qua gì đó, tôi kiểm tra lại đề bài thì thấy được đề gợi ý ra một trang web tìm hiểu về `ptrace` và cùng khi đó tôi để ý thấy một hàm ptrace ở gần đoạn check time ban đầu.
 
 ![img12](./images/img12.png)
 - Chính xác là nó đây, ở đây khi ta debug thì `ptrace` sẽ trả về giá trị là 0 nên `word_4048` vẫn giữ nguyên giá trị mặc định là 0x4D2, nhưng mà khi ta không dùng debug thì `ptrace` sẽ trả về là 1 từ đó `word_4048` được xor với 1234 (0x4D2) và trở thành 0.
