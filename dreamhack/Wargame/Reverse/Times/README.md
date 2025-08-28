@@ -18,7 +18,7 @@
 - Đúng với đề bài thì khoảng thời gian này rơi vào đúng 2030.
 - Vậy chính xác đây là đoạn nào chương trình đang kiểm tra đã đến ngày hay chưa.
 - Vì hiện tại vẫn chưa đến khoảng thời gian quy định nên khi chạy file ta sẽ luôn nhận được dòng `Not yet !!! Please wait more time.`.
-- Vì làm vậy sẽ khá khó khăn và mất thời gian trong lúc debug về tôi nghĩ đến việc đổi việc so sánh của bài này.
+- Vì làm vậy sẽ khá khó khăn và mất thời gian trong lúc debug về tôi nghĩ đến việc đổi phép so sánh của bài này.
 
 ![img5](./images/img5.png)
 - Như trong ảnh, chúng ta có thể thấy được code gốc sử dụng `jg` để nhảy và tương ứng với mã hex sẽ là `7F` (JG), tôi sẽ thay đổi mã hex ở đây thành `7E` (JLE) để làm thay đổi điều kiện nhảy của bài này.
