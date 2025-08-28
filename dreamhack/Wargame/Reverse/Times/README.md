@@ -121,7 +121,7 @@ print(data)
 - Tôi nghi ngờ là đã bỏ qua gì đó, tôi kiểm tra lại đề bài thì thấy được đề gợi ý ra một trang web tìm hiểu về `ptrace` và cùng khi đó tôi để ý thấy một hàm ptrace ở gần đoạn check time ban đầu.
 
 ![img12](./images/img12.png)
-- Chính xác là nó đây, ở đây khi ta debug thì `ptrace` sẽ trả về giá trị là 0 nên `word_4048` vẫn giữ nguyên giá trị mặc định là 0x04D2, nhưng mà khi ta không dùng debug thì `ptrace` sẽ trả về là 1 từ đó `word_4048` được xor với 1234 (0x04D2) và trở thành 0.
+- Chính xác là nó đây, ở đây khi ta debug thì `ptrace` sẽ trả về giá trị là -1 sau đó được +1 và trở thành 0 từ đó v0 sẽ có giá trị là 0, nên `word_4048` vẫn giữ nguyên giá trị mặc định là 0x04D2, nhưng mà khi ta không dùng debug thì `ptrace` sẽ trả về là 0 + 1 = 1 từ đó `word_4048` được xor với 1234 (0x04D2) và trở thành 0.
 ``` C
 for ( j = 0; j < v12 / 2; ++j )
     *(_WORD *)&s[2 * j] ^= word_4048;
