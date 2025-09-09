@@ -12,7 +12,7 @@
 - Nhưng khi tôi mở ra thì nó chỉ trỏ tới địa chỉ chứ không phải biến cố định.
 - Vậy nên tôi thử debug và xem liệu ở đâu sẽ gọi đến nó.
 
-![img2](./images/img3.png)
+![img3](./images/img3.png)
 - Sau một lúc debug thì tôi đến được hàm này, khả năng nó sẽ là hàm xử lý chính của chương trình.
 - Đầu tiên là đọc input vào `v1`.
 - Sau đó đi qua một hàm `xorEncrypt` và gán kết quả vào `v2`.
