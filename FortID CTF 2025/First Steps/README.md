@@ -1,6 +1,6 @@
 # First Steps
 
-- Ở bài này chúng ta được bài cung cấp cho một file lgo nhìn cũng khá tường mình rồi nhưng tôi sẽ chuyển nó sang python để có thể nhìn quen thuộc hơn.
+- Ở bài này chúng ta được bài cung cấp cho một file lgo nhìn cũng khá tường minh rồi nhưng tôi sẽ chuyển nó sang python để có thể nhìn quen thuộc hơn.
 
 ``` python
 from PIL import Image
