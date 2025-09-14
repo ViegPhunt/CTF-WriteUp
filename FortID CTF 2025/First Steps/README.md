@@ -107,14 +107,14 @@ else:
 
 ```
 1: a, b = (0, 0). ret = 0
-2: a, b = (4, 0). ret = 40
+2: a, b = (4, 0). ret = 40 => call g
 3: a, b = (2, 1). ret = 21
 4: a, b = (1, 1). ret = 11
-5: a, b = (4, 0). ret = 40
-6: a, b = (4, 1). ret = 41
+5: a, b = (4, 0). ret = 40 => call g
+6: a, b = (4, 1). ret = 41 => call h
 7: a, b = (1, 0). ret = 10
 8: a, b = (4, 2). ret = 42
-9: a, b = (4, 1). ret = 41
+9: a, b = (4, 1). ret = 41 => call h
 ```
 - Giờ đây ta có thể khẳng định suy luận của chúng ta đã đúng nhưng vẫn còn một điều ta chưa giải ra là hàm `g` và `h` xử lý điểm ở pixel đó như nào. Nhưng tại chỉ có 2 + 2 = 4 trường hợp nên tôi quyết định gửi check flag 4 lần.
 - Sau khi ghép lại các chữ số và check flag thì tôi đã có được flag cho bài này.
