@@ -117,7 +117,7 @@ else:
 9: a, b = (4, 1). ret = 41 => call h
 ```
 - Giờ đây ta có thể khẳng định suy luận của chúng ta đã đúng nhưng vẫn còn một điều ta chưa giải ra là hàm `g` và `h` xử lý điểm ở pixel đó như nào. Nhưng tại chỉ có 2 + 2 = 4 trường hợp nên tôi quyết định gửi check flag 4 lần.
-- Sau khi ghép lại các chữ số và check flag thì tôi đã có được flag cho bài này.
+- Sau khi ghép lại các chữ số theo thứ tự của mảng `target` và check flag thì tôi đã có được flag cho bài này.
 
 <details>
 <summary style="cursor: pointer">Flag</summary>
