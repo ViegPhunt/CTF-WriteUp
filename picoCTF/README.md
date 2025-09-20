@@ -1,1 +1,0 @@
-# Write up [picoCTF](https://play.picoctf.org/)

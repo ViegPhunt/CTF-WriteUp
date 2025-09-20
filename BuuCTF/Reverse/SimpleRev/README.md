@@ -24,10 +24,24 @@
 
 - Đây là đoạn mã chúng ta cần phân tích
 
-<a href="./decode.py">
-  <img src="./images/res.png" alt="Python decode script" style="cursor: pointer;">
-</a>
+``` python
+alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 
+text = "killshadow"
+key = "adsfkndcls"
+v3 = v5 = len(key)
+strres = ""
+
+for i in range(10):
+    for i in alphabet:
+        temp = chr((ord(i) - 39 - ord(key[v3 % v5]) + 97) % 26 + 97)
+        if (temp == text[len(strres)]):
+            strres += i
+            v3 += 1
+            break
+
+print(strres)
+```
 - Tôi có viết lại đoạn giải bằng python như trên và nhận được flag
 
 <details>

@@ -1,1 +1,0 @@
-# Write up [Dreamhack](https://dreamhack.io/)
