@@ -49,6 +49,7 @@ for i in lst:
 
 print("DH{" + flag + "}")
 ```
+- Sau khi chạy đoạn code trên thì tôi đã có flag cho bài này.
 
 <details>
 <summary style="cursor: pointer">Flag</summary>

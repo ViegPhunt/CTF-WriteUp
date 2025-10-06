@@ -26,9 +26,6 @@
 - Tôi tiến hành đọc lại source code và thấy rằng đoạn code đang mã hóa `root:toor123` và in nó ra ở dạng mã hóa chỗ `[WARN] Protected data...`
 - Tôi thấy nó khá giống với Password, nghi ngờ nó cùng được mã hóa theo một kiểu nên tôi thử viết một đoạn python để mã hóa theo đúng quy trình của bài xem như nào
 
-<details>
-<summary style="cursor: pointer">Python Encrypt</summary>
-
 ``` python
 import base64
 import struct
@@ -111,14 +108,10 @@ for i, module_id in enumerate(rX3gT9):
     print(f"Encrypted: {base64_result}")
     print("-----")
 ```
-</details>
 
 - Tôi có đoạn python để encypt giống như code gốc như trên
 - Và nó thật sự có được đoạn mã hóa của chuỗi `root:toor123` giống như trong app
 - Vậy nên tôi tiến hành reverse lại quy trình mã hóa của bài và có được đoạn python dưới đây
-
-<details>
-<summary style="cursor: pointer">Python Decrypt</summary>
 
 ``` python
 import base64
@@ -218,7 +211,6 @@ def decrypt_base64(encrypted_b64):
 encrypted_string = "ioFOE6/xXoxB5M02UsaVQAhuQVC5f8+PMMgwOwGbmE0R7n6qyRQ9qwCzCgDVYWc6"
 decrypt_base64(encrypted_string)
 ```
-</details>
 
 - Sau khi chạy đoạn python này với cả `Root Account Password` mà bài có cho thì tôi đã có được flag
 
